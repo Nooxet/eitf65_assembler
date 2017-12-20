@@ -1,4 +1,25 @@
 
+"""
+EITF65 Assembler ISA.
+
+Definition of the Instruction Set Architecture.
+To add an instruction, simply add the opcode mnemonic in the
+'opcodes' map. Specify whether the instruction uses register and/or immediate data
+with R and D, respectively. If an instruction does not use a register or data, simply
+write X instead.
+
+Example:
+The 'add' instruction specifies both a register and immediate data, thus should be encoded as
+'iiii R D'
+where 'iiii' is the opcode bitstring.
+
+The 'bz' instruction does not specify immediate data, thus should be encoded as
+'iiii R X'
+
+Jonathan Sönneurp
+2017
+"""
+
 ISA = {
     'ilen': 4,
     'rlen': 1,
