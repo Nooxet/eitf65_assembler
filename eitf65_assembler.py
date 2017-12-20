@@ -43,7 +43,6 @@ def decode(instr: str) -> str:
     # generate the corresponding machine code
     mcode = '{3:0{0}b}{5:0{1}b}{4:0{2}b}'       # only data
     if 'R' in isa.ISA['opcodes'][opcode]:
-        print(opcode)
         mcode = '{3:0{0}b}{4:0{1}b}{5:0{2}b}'   # register with/without data
 
     return mcode.format(ILEN, RLEN, DLEN, opcode_bit, arg1, arg2)
