@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""EITF65 Assembler.
+
+"""
+EITF65 Assembler.
 
 An assembler for the CPU lab in the course Digital Circuits at LTH.
 Write the program in assembly with mnemonics and use this program
