@@ -8,7 +8,7 @@ An assembler for the CPU lab in the course Digital Circuits at LTH.
 Write the program in assembly with mnemonics and use this program
 to translate it into machine code.
 
-Project website: https://github.com/Nooxet/eitf65_assembler
+Project website: https://github.com/Noxet/eitf65_assembler
 
 Jonathan Sönnerup
 2017
